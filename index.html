@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -8,19 +8,19 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-  </head>
-  <body class="dark">
+</head>
+<body class="dark">
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas"></canvas>
+        <canvas id="unity-canvas"></canvas>
     </div>
     <div id="loading-cover" style="display:none;">
-      <div id="unity-loading-bar">
         <div id="unity-logo"><img src="logo.png"></div>
-        <div id="unity-progress-bar-empty" style="display: none;">
-          <div id="unity-progress-bar-full"></div>
+        <div id="unity-loading-bar">
+            <div id="unity-progress-bar-empty" style="display: none;">
+                <div id="unity-progress-bar-full"></div>
+            </div>
+            <div class="spinner"></div>
         </div>
-        <div class="spinner"></div>
-      </div>
     </div>
     <script>
       const hideFullScreenButton = "";
@@ -90,5 +90,5 @@
       };
       document.body.appendChild(script);
     </script>
-  </body>
+</body>
 </html>
